@@ -1,0 +1,278 @@
+﻿<Controls:MetroWindow x:Class="ReportGen.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReportGen.Views"
+        xmlns:cal="http://www.caliburnproject.org"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Background="azure"
+        Title="Report Generator" Height="680" Width="800">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="290"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="300"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="25"/>
+        </Grid.RowDefinitions>
+
+        <GroupBox Grid.Row="1" Grid.Column="1">
+            <GroupBox.Header>Job Selection</GroupBox.Header>
+            <StackPanel>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="40"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="55"/>
+                    </Grid.RowDefinitions>
+
+                    <ToggleButton Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalAlignment="Center" VerticalAlignment="Center"
+                              IsChecked="{Binding ExcludeOldJobs}">Active Jobs only</ToggleButton>
+
+                    <TextBlock Grid.Row="1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Right">WO#:</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="1" MinWidth="100" VerticalAlignment="Center" Margin="5,0,5,0"
+                             x:Name="WoMatchText"/>
+                    <Button Grid.Row="1" Grid.Column="2" Height="24" >
+                        <Image Source="/resources/clear-symbol-filled.png"/>
+                    </Button>
+                    <Image Grid.Row="2" Grid.Column="0" Source="/resources/PurchaseOrderIcon.png"/>
+                    <TextBox Grid.Row="2" Grid.Column="1" MinWidth="100" VerticalAlignment="Center" Margin="5,0,5,0"
+                             x:Name="PoMatchText"/>
+                    <Button Grid.Row="2" Grid.Column="2" Height="24" x:Name="ClearPoText" >
+                        <Image Source="/resources/clear-symbol-filled.png"/>
+                    </Button>
+                    <Image Grid.Row="3" Grid.Column="0" Source="/resources/dwg-512.png" MaxHeight="24"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" MinWidth="100" VerticalAlignment="Center" Margin="5,0,5,0" x:Name="DwgMatchText"/>
+                    <Button Grid.Row="3" Grid.Column="2" Height="24" >
+                        <Image Source="/resources/clear-symbol-filled.png"/>
+                    </Button>
+                    <Image Grid.Row="4" Grid.Column="0" Source="/resources/pipe-icon-png-3.png" MaxHeight="22"/>
+                    <TextBox Grid.Row="4" Grid.Column="1" MinWidth="100" VerticalAlignment="Center" Margin="5,0,5,0" x:Name="SpoolMatchText"/>
+                    <Button Grid.Row="4" Grid.Column="2" Height="24" >
+                        <Image Source="/resources/clear-symbol-filled.png"/>
+                    </Button>
+                    <Image Grid.Row="5" Grid.Column="0" Source="/resources/clientIcon.png" MaxHeight="22"/>
+                    <ComboBox Grid.Row="5" Grid.Column="1" Grid.ColumnSpan="2" MinWidth="100" VerticalAlignment="Center" Margin="5,0,0,0"
+                              x:Name="ClientList" cal:Message.Attach="[Event SelectionChanged] = [Action SelectAllClientJob]"
+                              SelectedItem="{Binding SelectedClient, Mode=OneWayToSource}"/>
+
+                    <Grid Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,15,0,0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Button Margin="2" x:Name="SelectAllCCOJob">ALL CCO</Button>
+                        <Button Grid.Column="1" Margin="2" x:Name="SelectAllFabJob">ALL FAB</Button>
+                        <Button Grid.Column="2" Margin="2" x:Name="SelectAllHMSJob">ALL HMS</Button>
+                        <Button Grid.Column="3" Margin="2" x:Name="SelectEveryJob">ALL JOBS</Button>
+                    </Grid>
+                </Grid>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="2" Margin="5,0,0,0" Height="auto">
+            <GroupBox.Header>Selection Result</GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="180"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+                <ListBox Height="auto" MaxHeight="180" Width="auto" Margin="0,0,0,0" Background="PaleGoldenrod" VerticalAlignment="Top" MinHeight="180"
+                         x:Name="InterimJobCollection" DisplayMemberPath="DisplayInfo" SelectedItem="{Binding SelectedSearchInfo, Mode=OneWayToSource}"
+                         />
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Button  FontSize="10"  x:Name="AddJobToReportList">Add selected to Report</Button>
+                    <Button Grid.Column="1" x:Name="RemoveJobFromInterimList">
+                        <WrapPanel>
+                            <Image Source="/resources/delete-sign.png" Height="18"/>
+                            <TextBlock VerticalAlignment="Center">Selected</TextBlock>
+                        </WrapPanel>
+                    </Button>
+                    <Button Grid.Row="1" Grid.Column="0" FontSize="10" x:Name="AddAllJobsToReportList">Add all to Report</Button>
+                    <Button Grid.Row="1" Grid.Column="1" x:Name="RemoveAllJobsFromInterimList">
+                        <WrapPanel>
+                            <Image Source="/resources/delete-sign.png" Height="18"/>
+                            <TextBlock VerticalAlignment="Center">All</TextBlock>
+                        </WrapPanel>
+                    </Button>
+                </Grid>
+
+            </Grid>
+
+        </GroupBox>
+        <GroupBox Grid.Row="1" Grid.Column="3" Margin="5,0,0,0">
+            <GroupBox.Header>Report Selection</GroupBox.Header>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="180"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="20"/>
+                </Grid.RowDefinitions>
+                <ListBox Height="auto" Width="auto" MaxHeight="180"  Background="Thistle" x:Name="SelectedJobList" DisplayMemberPath="WorkOrder"
+                         VerticalAlignment="Top" MinHeight="180"
+                         SelectedItem="{Binding SelectedJobInfoFromReport, Mode=OneWayToSource}"/>
+                <WrapPanel Grid.Row="1">
+                    <Button MinWidth="70" x:Name="CreateReport">Create Report</Button>
+                    <Button x:Name="RemoveJobFromReportList">
+                        <WrapPanel>
+                            <Image Source="/resources/delete-sign.png" Height="18"/>
+                            <TextBlock VerticalAlignment="Center">Selected</TextBlock>
+                        </WrapPanel>
+
+                    </Button>
+                    <Button x:Name="RemoveAllJobsFromReportList">
+                        <WrapPanel>
+                            <Image Source="/resources/delete-sign.png" Height="18"/>
+                            <TextBlock>All</TextBlock>
+                        </WrapPanel>
+                    </Button>
+                </WrapPanel>
+                <Button Grid.Row="2">
+                    Report by Client
+                </Button>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="3" Height="auto" Margin="0,10,0,0">
+            <GroupBox.Header>Job Information</GroupBox.Header>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="auto"/>
+                    <ColumnDefinition Width="auto" MinWidth="200"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="20"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid.Resources>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="FontFamily" Value="Comic SansMS"/>
+                        <Setter Property="FontSize" Value="16"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                    </Style>
+                    <Style TargetType="Label">
+                        <Setter Property="Height" Value="auto"/>
+                        <Setter Property="Background" Value="AntiqueWhite"/>
+                        <Setter Property="Margin" Value="1.5"/>
+                    </Style>
+                </Grid.Resources>
+
+                <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" >In Aocnr:</Label>
+                <TextBlock Grid.Row="1" Grid.Column="1" x:Name="SelectedJobInfo_InAcorn" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+                
+                <Label Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right" >WO#:</Label>
+                <TextBlock Grid.Row="2" Grid.Column="1" x:Name="SelectedJobInfo_WorkOrder" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <Label Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right" >PO#:</Label>
+                <TextBlock Grid.Row="3" Grid.Column="1" x:Name="SelectedJobInfo_PoNumber" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <Label Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right" >Client:</Label>
+                <TextBlock Grid.Row="4" Grid.Column="1" x:Name="SelectedJobInfo_ClientName" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <Label Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right" >Job Type:</Label>
+                <TextBlock Grid.Row="5" Grid.Column="1" x:Name="SelectedJobInfo_JobType" Grid.ColumnSpan="3" />
+
+                <Label Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right" >FDI:</Label>
+                <TextBlock Grid.Row="6" Grid.Column="1" x:Name="SelectedJobInfo_FdiCount" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <Label Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right" >Items:</Label>
+                <TextBlock Grid.Row="7" Grid.Column="1" x:Name="SelectedJobInfo_ItemCount" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <Label Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right" >Status:</Label>
+                <TextBlock Grid.Row="8" Grid.Column="1" Grid.ColumnSpan="3" />
+
+                <Label Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right" Margin="0,1,1,2">RAS Date:</Label>
+                <TextBlock Grid.Row="9" Grid.Column="1" x:Name="SelectedJobInfo_RasDate" Grid.ColumnSpan="3" Margin="1,0,1,0"/>
+
+                <GroupBox Grid.Row="1" Grid.Column="2" Grid.RowSpan="8" Width="auto" >
+                    <GroupBox.Header>Spool / Item Information</GroupBox.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                            <RowDefinition Height="auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="auto"/>
+                        </Grid.ColumnDefinitions>
+
+                        <TextBlock Grid.Row="1" Grid.Column="0">Control No:</TextBlock>
+                        <ListBox Grid.Row="2" Grid.Column="0" Grid.RowSpan="6" MinWidth="150" MaxHeight="180" x:Name="SelectedJobSpoolList"
+                                 DisplayMemberPath="ControlNo" SelectedItem="{Binding SelectedSpoolInfo, Mode=OneWayToSource}" Background="FloralWhite"/>
+
+                        <Label Grid.Row="2" Grid.Column="1">Spool ID:</Label>
+                        <TextBlock Grid.Row="2" Grid.Column="2" x:Name="SelectedSpoolInfo_SpoolNumber"/>
+                        <Label Grid.Row="3" Grid.Column="1">Spool ID2:</Label>
+                        <TextBlock Grid.Row="3" Grid.Column="2" x:Name="SelectedSpoolInfo_SpoolNumber2"/>
+                        <Label Grid.Row="4" Grid.Column="1">Ref Dwg:</Label>
+                        <TextBlock Grid.Row="4" Grid.Column="2" x:Name="SelectedSpoolInfo_DrawingNo"/>
+                        <Label Grid.Row="4" Grid.Column="3">Rev:</Label>
+                        <TextBlock Grid.Row="4" Grid.Column="4" x:Name="SelectedSpoolInfo_DwgRev"/>
+                        <Label Grid.Row="5" Grid.Column="1">Hydro P</Label>
+                        <TextBlock Grid.Row="5" Grid.Column="2" x:Name="SelectedSpoolInfo_HydroPressure"/>
+                        <Label Grid.Row="6" Grid.Column="1">Pipe Spec</Label>
+                        <TextBlock Grid.Row="6" Grid.Column="2" x:Name="SelectedSpoolInfo_PipeSpec"/>
+                        <Label Grid.Row="7" Grid.Column="1">Weight</Label>
+                        <TextBlock Grid.Row="7" Grid.Column="2" x:Name="SelectedSpoolInfo_Weight"/>
+
+                    </Grid>
+                </GroupBox>
+
+            </Grid>
+        </GroupBox>
+
+        <StatusBar Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="5" Margin="0,5,0,0"/>
+    </Grid>
+</Controls:MetroWindow>

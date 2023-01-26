@@ -1,0 +1,206 @@
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\ReportGen.exe.config
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\ReportGen.exe
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\ReportGen.pdb
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.csprojAssemblyReference.cache
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\App.g.cs
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.cache
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.lref
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.g.resources
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.Properties.Resources.resources
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.GenerateResource.cache
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CoreCompileInputs.cache
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.exe
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.pdb
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.exe.config
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.exe
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.pdb
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csprojAssemblyReference.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\App.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.lref
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.g.resources
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.Properties.Resources.resources
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.GenerateResource.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CoreCompileInputs.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.exe
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.pdb
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.Windows.Interactivity.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\ShellView.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\App.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\ShellView.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CopyComplete
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\Views\ShellView.g.cs
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\App.baml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\Views\ShellView.baml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CopyComplete
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\ReportGen.exe.config
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\ReportGen.exe
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\ReportGen.pdb
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.Platform.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\System.Windows.Interactivity.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.Platform.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.csprojAssemblyReference.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\Views\ShellView.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\App.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen_MarkupCompile.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen_MarkupCompile.lref
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\App.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\Views\ShellView.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.g.resources
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.Properties.Resources.resources
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.csproj.GenerateResource.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.csproj.CoreCompileInputs.cache
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.csproj.CopyComplete
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.exe
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\ReportGen.pdb
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.g.cs
+C:\Users\axxu\source\repos\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\EPPlus.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\EPPlus.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\EPPlus.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\EPPlus.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\EPPlus.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\bin\Debug\EPPlus.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\Views\StatusViewOneView.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen (1)\ReportGen\obj\Debug\Views\StatusViewOneView.baml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Box.V2.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.xml
+C:\Users\axxu\source\repos\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\BouncyCastle.Crypto.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Box.V2.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.exe.config
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.exe
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ReportGen.pdb
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\BouncyCastle.Crypto.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Box.V2.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\EPPlus.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.Windows.Interactivity.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\EPPlus.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\Newtonsoft.Json.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csprojAssemblyReference.cache
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\ShellView.g.cs
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.g.cs
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\App.g.cs
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.cache
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen_MarkupCompile.lref
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\App.baml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\ShellView.baml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\StatusViewOneView.baml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.g.resources
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.Properties.Resources.resources
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.GenerateResource.cache
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CoreCompileInputs.cache
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.csproj.CopyComplete
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.exe
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\ReportGen.pdb
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\OldShellView.g.cs
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\OldShellView.baml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\OldShellView.g.cs
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\obj\Debug\Views\OldShellView.baml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MoreLinq.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.ValueTuple.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MoreLinq.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.ValueTuple.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MoreLinq.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.ValueTuple.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MoreLinq.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\System.ValueTuple.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.pdb
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.xml
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.dll
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.pdb
+D:\Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\FluentDateTime.xml
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ControlzEx.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MahApps.Metro.dll
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\ControlzEx.pdb
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MahApps.Metro.pdb
+G:\My Drive\PD\Codes\C#\Source\ReportGen\ReportGen\bin\Debug\MahApps.Metro.xml
+U:\source\repos\ReportGen\bin\Debug\ReportGen.exe.config
+U:\source\repos\ReportGen\bin\Debug\ReportGen.exe
+U:\source\repos\ReportGen\bin\Debug\ReportGen.pdb
+U:\source\repos\ReportGen\bin\Debug\Caliburn.Micro.xml
+U:\source\repos\ReportGen\bin\Debug\Caliburn.Micro.Platform.xml
+U:\source\repos\ReportGen\bin\Debug\Caliburn.Micro.Platform.Core.xml
+U:\source\repos\ReportGen\bin\Debug\ControlzEx.pdb
+U:\source\repos\ReportGen\bin\Debug\EPPlus.xml
+U:\source\repos\ReportGen\bin\Debug\FluentDateTime.pdb
+U:\source\repos\ReportGen\bin\Debug\FluentDateTime.xml
+U:\source\repos\ReportGen\bin\Debug\MahApps.Metro.pdb
+U:\source\repos\ReportGen\bin\Debug\MahApps.Metro.xml
+U:\source\repos\ReportGen\bin\Debug\Microsoft.IdentityModel.Logging.xml
+U:\source\repos\ReportGen\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+U:\source\repos\ReportGen\bin\Debug\MoreLinq.xml
+U:\source\repos\ReportGen\bin\Debug\Newtonsoft.Json.xml
+U:\source\repos\ReportGen\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+U:\source\repos\ReportGen\bin\Debug\System.ValueTuple.xml
+U:\source\repos\ReportGen\obj\Debug\ReportGen.csprojAssemblyReference.cache
+U:\source\repos\ReportGen\obj\Debug\Views\OldShellView.g.cs
+U:\source\repos\ReportGen\obj\Debug\Views\StatusViewOneView.g.cs
+U:\source\repos\ReportGen\obj\Debug\Views\ShellView.g.cs
+U:\source\repos\ReportGen\obj\Debug\App.g.cs
+U:\source\repos\ReportGen\obj\Debug\GeneratedInternalTypeHelper.g.cs
+U:\source\repos\ReportGen\obj\Debug\ReportGen_MarkupCompile.cache
+U:\source\repos\ReportGen\obj\Debug\ReportGen_MarkupCompile.lref
+U:\source\repos\ReportGen\obj\Debug\App.baml
+U:\source\repos\ReportGen\obj\Debug\Views\OldShellView.baml
+U:\source\repos\ReportGen\obj\Debug\Views\StatusViewOneView.baml
+U:\source\repos\ReportGen\obj\Debug\Views\ShellView.baml
+U:\source\repos\ReportGen\obj\Debug\ReportGen.g.resources
+U:\source\repos\ReportGen\obj\Debug\ReportGen.Properties.Resources.resources
+U:\source\repos\ReportGen\obj\Debug\ReportGen.csproj.GenerateResource.cache
+U:\source\repos\ReportGen\obj\Debug\ReportGen.csproj.CoreCompileInputs.cache
+U:\source\repos\ReportGen\obj\Debug\ReportGen.csproj.CopyComplete
+U:\source\repos\ReportGen\obj\Debug\ReportGen.exe
+U:\source\repos\ReportGen\obj\Debug\ReportGen.pdb

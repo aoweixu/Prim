@@ -1,0 +1,93 @@
+﻿<Window x:Class="ReportGen.Views.OldShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReportGen.Views"
+        xmlns:cal="http://www.caliburnproject.org"
+        mc:Ignorable="d"
+        Title="OldShellView" Height="450" Width="700" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+        
+        <!-- Input Row -->
+        <TextBlock Grid.Column="1" Grid.Row="1" VerticalAlignment="Center">Pick Job</TextBlock>
+        <ComboBox Grid.Column="2" Grid.Row="1" Width="120" x:Name="JobList" MaxDropDownHeight="140"
+                  SelectedItem="{Binding SelectedJobInfo, Mode=OneWayToSource}"
+                  DisplayMemberPath="WorkOrder" />
+        
+        <TextBlock Grid.Column="3" Grid.Row="1" Margin="10,0,10,0" VerticalAlignment="Center"> Or look up by PO#: </TextBlock>
+        <TextBox Grid.Column="4" Grid.Row="1" MinWidth="100" Margin="0,0,10,0" x:Name="PoMatchText"/>
+        <Button Grid.Column="5" Grid.Row="1" x:Name="ClearPoText">CLR</Button>
+        <TextBlock Grid.Column="6" Grid.Row="1" VerticalAlignment="Center">Matches:</TextBlock>
+        <TextBlock Grid.Column="7" Grid.Row="1" x:Name="NumPoMatches" VerticalAlignment="Center"/>
+
+        <!-- Job Info Section -->
+        <TextBlock Grid.Column="1" Grid.Row="3" HorizontalAlignment="Right">Client:</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="3" x:Name="SelectedJobInfo_ClientName" Margin="15,0,0,0" />
+        <TextBlock Grid.Column="3" Grid.Row="3" HorizontalAlignment="Right">Proj Description:</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="3" x:Name="SelectedJobInfo_ProjDesc" Margin="15,0,0,0" />
+
+        <TextBlock Grid.Column="1" Grid.Row="4" HorizontalAlignment="Right">PO#:</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="4" x:Name="SelectedJobInfo_PoNumber" Margin="15,0,0,0" />
+        <TextBlock Grid.Column="3" Grid.Row="4" HorizontalAlignment="Right">Spool/Item count:</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="4" x:Name="SelectedJobInfo_ItemCount" Margin="15,0,0,0" />
+
+        <TextBlock Grid.Column="1" Grid.Row="5" HorizontalAlignment="Right">WO#:</TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="5" x:Name="SelectedJobInfo_WorkOrder" Margin="15,0,0,0"/>
+        <TextBlock Grid.Column="3" Grid.Row="5" HorizontalAlignment="Right">FDI count:</TextBlock>
+        <TextBlock Grid.Column="4" Grid.Row="5" x:Name="SelectedJobInfo_FdiCount" Margin="15,0,0,0" />
+        
+        <!-- View Navigation Row -->
+        <WrapPanel Grid.Column="1" Grid.Row="7" Grid.ColumnSpan="5" >
+            <TextBlock VerticalAlignment="Center">View Status:</TextBlock>
+            <Button x:Name="AddJobToList">Add Selected Job</Button>
+            <TextBlock>OR Select Client:</TextBlock>
+            <ComboBox x:Name="ClientList" MinWidth="100" SelectedItem="{Binding SelectedClient, Mode=OneWayToSource}"
+                      cal:Message.Attach="[Event SelectionChanged] = [Action SelectAllClientJob]"/>
+            <Button x:Name="CreateReport">Make Report</Button>
+            <Button x:Name="RemoveJobFromList">Remove Job</Button>
+            
+        </WrapPanel>
+        
+        <!-- View Display Area -->
+        <Border Grid.Column="1" Grid.Row="9" Grid.ColumnSpan="6"
+                BorderBrush="Black" BorderThickness="1">
+            <ListBox x:Name="SelectedJobList" DisplayMemberPath="WorkOrder" SelectedItem="{Binding SelectedJobInfoFromReport, Mode=OneWayToSource}"/>
+        </Border>
+      
+    </Grid>
+</Window>
